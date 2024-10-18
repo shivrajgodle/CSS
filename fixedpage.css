@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    background-color: #aaa;
+}
+
+.container{
+    background-color: #fff;
+    width: 100%;
+    max-width: 70%;
+    margin: auto;
+}
+
+header , footer{
+    background-color: brown;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+    position: fixed;
+    width: inherit;
+    max-width: inherit;
+}
+
+header{
+    top:0px;
+}
+
+footer{
+    bottom:0px;
+}
+
+.main{
+    padding: 50px 0px;
+}

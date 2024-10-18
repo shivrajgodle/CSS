@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tricolor.css">
+</head>
+<body>
+    
+
+    <div>
+        <div class="orange">
+        
+        </div>
+
+        <div class="white">
+            <div class="ashokchakra">
+                <div class="center_circle"></div>
+                <div class="spokes"></div>
+            </div>
+        </div>
+
+        <div class="green">
+
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const ashokChakra = document.querySelector('.ashokchakra');
+            for(let i = 0; i < 24; i++) {
+                const spoke = document.createElement('div');
+                spoke.className = 'spoke';
+                spoke.style.transform = `rotate(${i * 15}deg)`;
+                spoke.style.top = '50%';
+                spoke.style.left = '50%';
+                spoke.style.width = '75px'; // Adjust to change spoke length
+                spoke.style.height = '2px';
+                spoke.style.background = 'white';
+                spoke.style.position = 'absolute';
+                spoke.style.transformOrigin = 'center';
+                ashokChakra.appendChild(spoke);
+            }
+        });
+    </script>
+
+</body>
+</html>

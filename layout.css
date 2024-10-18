@@ -1,0 +1,80 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: #aaa;
+}
+
+header{
+    background-color: lightcoral;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.logo{
+    float: left;
+    margin-top: 10px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    float: left;
+    margin: 10px;
+}
+
+
+.container{
+    max-width: 80%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.main-section{
+    float: left;
+    width: 70%;
+}
+
+aside{
+    float: right;
+    width: 30%;
+}
+
+
+footer{
+    text-align: center;
+}
+
+
+.box{
+    width: 33.33%;
+    float: left;
+}
+
+
+.box p{
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+}

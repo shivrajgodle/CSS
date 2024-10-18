@@ -1,0 +1,38 @@
+.orange{
+width: 1500px;
+height: 250px;
+background-color: orange;
+}
+
+
+.green{
+    width: 1500px;
+    height: 250px;
+    background-color: green;
+}
+
+.white{
+    width: 1500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ivory;
+}
+
+
+.ashokchakra {
+    position: relative;
+    width: 245px;
+    height: 245px;
+    background-color: #0343DF;
+    border-radius: 50%;
+}
+
+.spoke {
+    position: absolute;
+    width: 175px; /* Adjust to change spoke length */
+    height: 20px;
+    background-color: white;
+    transform-origin: center;
+}

@@ -1,0 +1,650 @@
+body{
+    margin: 0px;
+}
+
+
+/* video 3 Intrensic vs Extrensic sizing css started */
+
+ /* div{
+    background-color: red;
+    width: auto;
+    width: 240px;
+    width: max-content;
+    width: min-content
+    width: fit-content;
+    margin: 10px;
+}  */
+
+/* video 3 Intrensic vs Extrensic sizing css ended */
+
+
+
+
+
+
+/* video 4 Content box vs border box  css started */
+
+/* *, *::before,*::after{
+    box-sizing: border-box;
+}
+
+div{
+    box-sizing: content-box;
+    box-sizing: border-box;
+    background: red;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid blue;
+} */
+
+
+/* video 4 Content box vs border box css ended */
+
+
+
+
+
+
+
+
+/* video 5 CSS Selectors. Universal, Element, Class, Id and Attribute Selectors for matching Elements - CSS started */
+
+/* Universal selector */
+/* * {
+color: pink;
+} */
+
+
+/* Element selector */
+/* div{
+    color: red;
+} */
+
+
+/* Class selector */
+/* .name{
+    color: green;
+} */
+
+
+/* ID selector */
+/* #name{
+    color: magenta;
+} */
+
+
+/* Attribute selector */
+
+/* a[href='www.google.com/']{
+color: red;
+} */
+
+/* a[href*='google']{
+    color: red;
+} */
+
+/* check for first google in href and apply the css */
+/* a[href^='google']{
+    color: red;
+} */
+
+/* check for .com in the last in href and apply the css */
+/* a[href$='.com']{
+    color: red;
+} */
+
+/* video 5 CSS Selectors. Universal, Element, Class, Id and Attribute Selectors for matching Elements - CSS ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* video 6 Grouping Selectors, Pseudo Class and Pseudo Element Selectors - CSS - CSS started */
+
+/* Grouping Selectors */
+/* h1,
+.my-class,
+h3{
+    color: red;
+} */
+
+
+/* Pseudo Selectors */
+/* a:hover{
+    color: red;
+    outline: 1px green dotted;
+} */
+
+
+/* Pseudo Element Selectors */
+/* .title::before{
+    content: 'ER-';
+}
+
+.title::after{
+    content: '.';
+} */
+
+
+/* li::marker{
+    color: red;
+}
+
+::selection{
+    background: black;
+    color: white;
+} */
+
+
+
+/* video 6 Grouping Selectors, Pseudo Class and Pseudo Element Selectors - CSS - CSS Ended */
+
+
+
+
+
+
+
+
+
+
+
+/* video 7 Descendent Selector (Space) and Direct Descendent Selector for Selecting Child Elements - CSS3 - CSS started */
+
+/* .my-class p{
+    color: red
+} */
+
+
+/* Descendent Selector */
+/* .my-class strong{
+    color: red;
+} */
+
+/* Direct Descendent Selector */
+/* .my-class > strong{
+    color: red;
+} */
+
+/* video 7 Descendent Selector (Space) and Direct Descendent Selector for Selecting Child Elements - CSS3 - CSS ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* video 8 Adjacent Selector (+) , Subsequent Sibling Selector (~) & Compound Selectors - CSS started */
+
+/* Adjacent Selector */
+
+/* .my-class + p{
+    color: red
+} */
+
+/* Subsequent Sibling Selector */
+/* .my-class ~ p{
+    color: red
+} */
+
+/* Compound Selectors */
+/* p.my-class{
+    color: red;
+} */
+
+
+/* video 8 Adjacent Selector (+) , Subsequent Sibling Selector (~) & Compound Selectors - CSS - CSS Ended */
+
+
+
+
+
+
+
+
+
+
+/* Video 12. Apply CSS Inheritance using inherit value for non inheritable Property - CSS3 started */
+
+/* .my-class{
+    color: red;
+    border: 2px solid;
+    padding: 10px;
+} */
+
+/* inherit property to get border , padding etc from parent class */
+/* .title{
+    border: inherit;
+    padding: inherit;
+} */
+
+/* Video 12. Apply CSS Inheritance using inherit value for non inheritable Property - CSS3 ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* video 13. CSS Inheritance value Initial and Unset for controlling Inheritance for elements - CSS3 started */
+
+/* .my-class{
+    color: red;
+    font-size: 40px;
+} */
+
+/* Initial property usage if you want by default color or properties then we can use inital*/
+/* .my-class .reset{
+    color: initial;
+    font-size: initial;
+} */
+
+
+/* Unset property is a combination of initial & inherited.  */
+
+/* .parent {
+    color: red;
+}
+
+/* without Unset property */
+/* button{
+    color: inherit;
+    border: initial;
+    background-color: initial;
+} */
+
+
+/* with Unset property */
+/* button{
+    all:unset
+}  */
+/* video 13. CSS Inheritance value Initial and Unset for controlling Inheritance for elements - CSS3 ended */
+
+
+
+
+
+
+/* 14. CSS Revert Value for applying the Browser default value - CSS3 started */
+
+/* div{
+    display: initial;
+} */
+
+/* revert property will take browser level set values if we have selected all as unset  */
+/* button{
+    all:unset;
+    background-color: revert;
+} */
+
+
+
+
+/* 14. CSS Revert Value for applying the Browser default value - CSS3 ended */
+
+
+
+
+
+
+
+/* Video 18. Sizing Units in CSS. Difference between the em and rem sizing Units - CSS3 */
+
+/* div{
+    border: 1px solid red;
+    font-size: 1.5em
+} */
+
+/* EM is relative to the parent element's font size, so if you wish to scale 
+the element's size based on its parent's size, use EM. REM is relative to the 
+root (HTML) font size, so if you wish to scale the element's size based on the
+ root size, no matter what the parent size is, use REM. */
+
+ /* p {
+    font-size: 2em;
+} */
+
+
+/* p {
+    font-size: 1rem;
+} */
+
+
+
+/* Video 18. Sizing Units in CSS. Difference between the em and rem sizing Units - CSS3 */
+
+
+
+
+
+
+
+
+
+
+
+
+/* video 19. Difference between CSS Inline, Block and Inline-Block values in Display Property - CSS3 */
+
+/* .block{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid red;
+} */
+
+/* if you want to set width , height etc property for inline element then it will not work but if you make display as inline block then it will apply styles */
+/* .inline{
+    display: inline-block;
+    display: block; it will show both element in same line 
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+} */
+
+
+
+/* video 19. Difference between CSS Inline, Block and Inline-Block values in Display Property - CSS3 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Video 21. Float Positioning Property Basics. Float Left, Right and Clear Property Values in CSS - CSS3 */
+
+/* .image{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.right{
+    float: right;
+    margin: 20px;
+}
+
+.left{
+    float: left;
+    margin: 20px;
+} */
+
+/* Video 21. Float Positioning Property Basics. Float Left, Right and Clear Property Values in CSS - CSS3 */
+
+
+
+
+
+
+
+
+
+
+/* video 26. CSS Positioning Property Relative and its Functionality how it works for an element - CSS3 */
+
+/* .parent{
+    position: relative;
+    width: 75vw;
+    height: 75vh;
+    background-color: lightblue;
+    z-index: 1;
+  }
+  
+  .child{
+    position: relative;
+    z-index: 1; 
+    background-color: black;
+    width: 100px;
+    height: 30px;
+  }
+  
+  p {
+    position: relative;
+    bottom: 35px;
+    z-index: 0;
+  } */
+
+/* video 26. CSS Positioning Property Relative and its Functionality how it works for an element - CSS3 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* video 27. CSS Absolute Positioning Property. Absolute vs Relative Property behavior in CSS - CSS3 */
+
+/* .parent{
+    position: relative;
+    width: 75vw;
+    height: 75vh;
+    background-color: lightblue; */
+
+    /* position: absolute; */
+    /* position: fixed; */
+    /* position: static; */
+    /* position: sticky; */
+  /* } */
+  
+  /* .child{
+    position: absolute; */
+   
+    /* top: 0px; */
+
+
+    /* right: 0px;
+    bottom: 0px; */
+
+
+     /* right: 0px;
+    top: 0px; */
+
+
+
+    /* background: red;
+    width: 30px;
+    height: 30px; */
+
+
+    /* background: red; */
+    /* top: 0px;
+    bottom: 0px; */
+    /* width: 20px;
+    left: 50%; */
+
+
+    /* right: 20px;
+    left: 20px; */
+
+
+    /* right: 20px;
+    left: 50%;
+    height: 20px; */
+
+
+    /* right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px; */
+
+
+    /* width: 30px;
+    height: 30px;
+    bottom: 0px;
+    right: 0px; */
+
+
+    /* top: 0px;
+    bottom: 0px;
+    right: 30px;
+    left: 50%; */
+
+
+
+   
+    /* bottom: 0px;
+    width: 30px;
+    top: 20px;
+    left: 50px; */
+
+
+
+ 
+    /* width: 30px;
+    height: 50px;
+
+  } */
+  
+  /* p {
+    position: relative;
+    z-index: 1;
+  } */
+
+/* video 27. CSS Absolute Positioning Property. Absolute vs Relative Property behavior in CSS - CSS3 */
+
+
+
+
+
+
+
+
+
+/* Video 28. CSS Position Fixed Property. How it differs from Absolute Property in CSS - CSS3 started */
+
+/* .parent{
+    background-color: lightblue;
+    max-width: 75vw;
+   
+}
+
+.child{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 30px;
+    max-width: inherit;
+    background-color: red;
+    z-index: -1;
+} */
+
+/* Video 28. CSS Position Fixed Property. How it differs from Absolute Property in CSS - CSS3 ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Video 29. Make CSS fixed Header and Footer for a Web Page using position fixed property in CSS - CSS3 started */
+
+
+
+
+
+/* Video 29. Make CSS fixed Header and Footer for a Web Page using position fixed property in CSS - CSS3 ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
