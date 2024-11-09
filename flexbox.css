@@ -1,0 +1,73 @@
+/* Video 33. CSS Flexbox direction for aligning items. row | row-reverse | Column | column-reverse - CSS3 started  */
+/* .container{ */
+    /* background-color: lightblue;
+    display: flex; */
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+/* } */
+
+/* .container > div {
+    border: 1px solid;
+} */
+/* Video 33. CSS Flexbox direction for aligning items. row | row-reverse | Column | column-reverse - CSS3 ended  */
+
+
+
+
+/* Video 34 CSS Flex-wrap property. no-wrap, wrap | flex-flow Shorthand Property - CSS3 Flexbox - CSS3 started  */
+/* .container{ */
+    /* background-color: lightblue;
+    display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    /* flex-flow: column wrap; */
+    /* flex-flow: row wrap; */
+/* } */
+
+/* .container > div {
+    background-color: lightcoral;
+    border: 1px solid black; */
+
+     /* flex : initial; */
+
+    /* flex-grow: 0;
+    flex-shrink: 1;       all these can be replaced by just flex : initial;
+    flex-basis: auto; */
+
+   
+    /* flex : auto; */
+
+    /* flex-grow: 1;
+    flex-shrink: 1;       all these can be replaced by just flex : auto;
+    flex-basis: auto; */
+
+    /* flex : 1; */
+
+    /* flex-grow: 1;
+    flex-shrink: 1;       all these can be replaced by just flex : 1;
+    flex-basis: 0; */
+/* }  */
+
+
+.container{
+    background: #aaa;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.child{
+    width: 100px;
+    /* max-width: 80px; */
+    min-width: 100px;
+    flex-basis: 50px;
+    background-color: lightblue;
+    border: 1px solid black; 
+}
+
+/* Video 34 CSS Flex-wrap propertys. no-wrap, wrap | flex-flow Shorthand Property - CSS3 Flexbox - CSS3 ended  */

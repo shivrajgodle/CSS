@@ -602,6 +602,60 @@ root (HTML) font size, so if you wish to scale the element's size based on the
 
 
 
+/* Video 30. Position Sticky Property. How it differs from the Fixed property in CSS - CSS3 */
+
+/* body{
+    margin: 0px;
+}
+
+h1{
+    background-color: greenyellow;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+.container{
+    background-color: lightcoral;
+} */
+
+/* Video 30. Position Sticky Property. How it differs from the Fixed property in CSS - CSS3 */
+
+
+
+
+
+
+
+/* video 31. Usage of Sticky Position Property in the real time web Apps CSS - CSS3 */
+
+main { 
+    background-color: white;
+}
+
+h1{
+    background-color: greenyellow;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+.Continue{
+    position: sticky;
+    padding: 10px;
+    background-color: green;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    bottom: 50px;
+    z-index: -1;
+    margin-bottom: 100px;
+}
+/* video 31. Usage of Sticky Position Property in the real time web Apps CSS - CSS3 */
 
 
 
@@ -617,13 +671,22 @@ root (HTML) font size, so if you wish to scale the element's size based on the
 
 
 
-/* Video 29. Make CSS fixed Header and Footer for a Web Page using position fixed property in CSS - CSS3 started */
 
 
 
 
 
-/* Video 29. Make CSS fixed Header and Footer for a Web Page using position fixed property in CSS - CSS3 ended */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
