@@ -53,7 +53,7 @@
 /* }  */
 
 
-.container{
+/* .container{
     background: #aaa;
     width: 300px;
     height: 300px;
@@ -63,11 +63,180 @@
 
 .child{
     width: 100px;
-    /* max-width: 80px; */
+    max-width: 80px;
     min-width: 100px;
     flex-basis: 50px;
     background-color: lightblue;
     border: 1px solid black; 
-}
+} */
+
 
 /* Video 34 CSS Flex-wrap propertys. no-wrap, wrap | flex-flow Shorthand Property - CSS3 Flexbox - CSS3 ended  */
+
+
+
+/* video 38 Flex-shrink CSS Property in FlexBox & how it behaves with flex-grow & flex-basis property - CSS3 */
+
+
+/* .container{
+    width: 80vw;
+    height: 100px;
+    display: flex;
+    background-color: lightcoral;
+}
+
+.child{
+    background-color: lightblue;
+    border: 1px solid black; 
+    flex-basis: 300px;
+} */
+
+/* .child:nth-of-type(1) {
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex: 0 1 100px;
+}
+
+.child:nth-of-type(2) {
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 10;
+    flex: 0 1 100px;
+} */
+
+/* video 38 Flex-shrink CSS Property in FlexBox & how it behaves with flex-grow & flex-basis property - CSS3 ended*/
+
+
+
+
+/* video 39 Order Property in CSS FlexBox. Rearrange Flex items using the css Order Property - CSS3 started */
+
+/* .container{
+    width: 80vw;
+    height: 100px;
+    display: flex;
+    background-color: lightcoral;
+    flex-direction: column;
+}
+
+.child{
+    background-color: lightblue;
+    border: 1px solid black; 
+    flex-basis: 25%;
+}
+    
+.child:nth-of-type(1){
+    order: 1;
+}
+
+.child:nth-of-type(2){
+    
+}
+
+.child:nth-of-type(3){
+    order: 2;
+}
+
+.child:nth-of-type(4){
+    order: -1;
+} */
+
+/* video 39 Order Property in CSS FlexBox. Rearrange Flex items using the css Order Property - CSS3 ended */
+
+
+
+
+
+/* video 40. Distribute Space between flex items on main axis using justify-content property in Flexbox - CSS */
+
+/* .container{
+    width: 80vw;
+    height: 100px;
+    display: flex;
+    background-color: lightcoral; */
+    /* justify-content: flex-start;
+    justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    /* flex-direction: column;
+    justify-content: flex-end; */
+/* } */
+
+/* .child{
+    background-color: lightblue;
+    border: 1px solid black; 
+} */
+
+
+/* video 40. Distribute Space between flex items on main axis using justify-content property in Flexbox - CSS ended */
+
+
+
+/* video 41. Distribute Space between flex items along cross axis using align-content in Flexbox - CSS */
+
+/* .container{
+    width: 80vw;
+    height: 100px;
+    display: flex;
+    background-color: lightcoral;
+    flex-wrap: wrap; */
+    /* align-items: center; */
+    /* align-content: space-evenly; */
+    /* align-content: space-between; */
+    /* flex-direction: column; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-between;
+    justify-content: space-between; */
+
+    /* place-content: center space-between;
+
+} */
+
+/* .child{
+    background-color: lightblue;
+    border: 1px solid black; 
+    flex-basis: 20%;
+} */
+
+/* video 41. Distribute Space between flex items along cross axis using align-content in Flexbox - CSS ended */
+
+
+
+
+
+
+
+
+/* video 42. Align-items & align-self property for aligning flex items in the flex line using flexbox - CSS */
+
+.container{
+    width: 80vw;
+    height: 200px;
+    display: flex;
+    background-color: lightcoral;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.child{
+    background-color: lightblue;
+    border: 1px solid black; 
+    flex-basis: 20%;
+}
+
+/* .child:nth-of-type(3){
+    align-self: center;
+}
+
+.child:nth-of-type(4){
+    align-self: flex-start;
+}
+
+.child:nth-of-type(6){
+    align-self: center;
+} */
+
+/* video 42. Align-items & align-self property for aligning flex items in the flex line using flexbox - CSS ended */

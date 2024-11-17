@@ -1,0 +1,92 @@
+.container{
+    width: 1000px;
+    height: 500px;
+    background-color: #eee;
+    margin: 30px auto;
+    display: grid;
+
+    /* Instead of these */
+    /* grid-template-rows: 150px 150px; */
+
+    /* We can use this shorthand properly */
+    /* grid-template-rows: repeat(2,150px); */
+
+    /* Instead of these */
+    /* grid-template-columns: 150px 150px 150px; */
+
+    /* We can use this shorthand properly */
+    /* grid-template-columns: repeat(3,150px); */
+
+    /* Instead of these */
+    /* grid-row-gap: 30px;
+    grid-column-gap: 30px; */
+
+    /* We can use this shorthand properly */
+    grid-gap: 30px;
+
+    /* fr is fraction unit */
+    /* grid-template-columns: 150px 1fr 1fr */
+    /* grid-template-columns: repeat(3,1fr); */
+    /* grid-template-columns: 50% repeat(2,1fr); */
+    /* grid-template-columns: 50% 2fr 1fr;
+    grid-template-rows: repeat(2,1fr); */
+
+    /* 46. Positioning the Grid Items using Grid-row and grid-column in the CSS Grid - CSS3 */
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.item{
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.item-1{
+    background-color: Orange;
+
+    /* 46. Positioning the Grid Items using Grid-row and grid-column in the CSS Grid - CSS3 */
+
+    /* Instead of these */
+    /* grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4; */
+
+    /* We can use this shorthand properly */
+    /* grid-row: 2/3;
+    grid-column: 3/4; */
+    
+    /* also we can use like this */
+    /* grid-area: 2/3/3/4; */
+
+
+    /* 47. Spanning the Grid Items across the Grid using span and z-index in the CSS Grid - CSS3 */
+    grid-row: 2/3;
+    grid-column: 2/span 2;
+
+}
+.item-2{
+    background-color: Green;
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+.item-3{
+    background-color: violet;
+    grid-row: 1/2;
+    grid-column: 2/4;
+    z-index: 1;
+}
+.item-4{
+    background-color: Pink;
+}
+.item-5{
+    background-color: Blue;
+    /* grid-row: 1/2;
+    grid-column: 1/2; */
+}
+.item-6{
+    background-color: Brown;
+    /* grid-column: 1/span 3; */
+    grid-column: 1/-1;
+}

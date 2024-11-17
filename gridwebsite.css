@@ -1,0 +1,81 @@
+.container{
+    width: 1000px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-rows: [header-start] 100px [header-end box-start]200px [box-end main-start]400px [main-end footer-start]100px [footer-end];
+    /* grid-template-columns: repeat(3,1fr) 200px; */
+    grid-template-columns: repeat(3, [col-start] 1fr [col-end]) 200px [grid-end];
+    grid-gap: 30px;
+
+
+    grid-template-areas: '. head head side' 
+                         'box1 box2 box3 side'
+                         'main main main side'
+                         'foot foot foot foot';
+}
+
+.container > * {
+    background-color: blueviolet;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+}
+
+/* .header{
+    grid-column: 1/-1;
+} */
+
+/* .header{
+    grid-column: col-start 1 / grid-end;
+} */
+
+.header{
+    grid-area: head;
+}
+
+/* .main-content{
+    grid-row: 3/4;
+    grid-column: 1 / span 3;
+} */
+
+/* .main-content{
+    grid-row: main-start/main-end;
+    grid-column: col-start 1 / col-end 3;
+} */
+
+.main-content{
+    grid-area: main;
+}
+
+/* .sidebar{
+    grid-row: 2/ span 2;
+} */
+ 
+/* .sidebar{
+    grid-row: box-start/main-end;
+} */
+
+.sidebar{
+    grid-area: side
+}
+
+/* .footer{
+    grid-column: col-start 1 / grid-end;
+} */
+
+.footer{
+    grid-area: foot;
+}
+
+
+.small-box-1{
+    grid-area: box1;
+}
+
+.small-box-2{
+    grid-area: box2;
+}
+
+.small-box-3{
+    grid-area: box3;
+}
